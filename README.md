@@ -4,7 +4,7 @@
 
 Born in the beautiful foothills of the Himalayas. On my weekends I usually take part in outdoor activities and love to travel a lot. In my spare time, I like to challenge my brain with some puzzles.
 
-![Sourabh](https://visitor-badge.laobi.icu/badge?page_id=iamsourabh-in) [![Github](https://img.shields.io/github/followers/iamsourabh-in?label=Follow&style=social)](https://github.com/CharalambosIoannou)
+![](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FSourabh_rusty) ![Sourabh](https://visitor-badge.laobi.icu/badge?page_id=iamsourabh-in) [![Github](https://img.shields.io/github/followers/iamsourabh-in?label=Follow&style=social)](https://github.com/CharalambosIoannou)
 
 - 🔭 I’m currently working on Web Technologies
 - 👯 I’m looking to collaborate on Innovative Projects
