@@ -1,6 +1,6 @@
 # About Me
 
-Born in the beautiful foothills of the Himalayas. I have always admired nature the most and calmness has always attracted me. On my weekends I usually take part in outdoor activities and love to travel a lot. In my spare time, I like to challenge my brain with some puzzles or code to solve a problem.
+Born in the beautiful foothills of the Himalayas. On my weekends I usually take part in outdoor activities and love to travel a lot. In my spare time, I like to challenge my brain with some puzzles or code to solve a problem.
 
 ![Sourabh](https://visitor-badge.laobi.icu/badge?page_id=codeRusty)
 
