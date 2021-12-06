@@ -49,11 +49,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [AWS RDS 101 – Amazon Relational Database Service](https://devcachein.wordpress.com/2021/12/05/aws-rds-101-amazon-relational-database-service/)
 - [How to Generate Thumbnail from a Video in C# Dotnet Core.](https://devcachein.wordpress.com/2021/09/17/how-to-generate-thumbnail-from-a-video-in-c-dotnet-core/)
 - [I didn’t know it was this easy to handle Exceptions in .Net Core Web API. EasyException !!](https://devcachein.wordpress.com/2021/09/02/i-didnt-know-it-was-this-easy-to-handle-exceptions-in-net-core-web-api-easyexception/)
 - [Is Windows 11 worth upgrading ? Windows 11 is Windows 10 in Smart casuals 🤟.](https://devcachein.wordpress.com/2021/08/24/is-windows-11-worth-upgrading-windows-11-is-windows-10-in-smart-casuals-%f0%9f%a4%9f/)
 - [Execute a piece of C# code anytime in VS Code using .NET Interactive Notebooks](https://devcachein.wordpress.com/2021/08/24/execute-a-piece-of-c-code-anytime-in-vs-code-using-net-interactive-notebooks/)
-- [Understanding and Validating JWT using Json Web Key Sets in Microservices](https://devcachein.wordpress.com/2021/08/23/understanding-and-validating-jwt-using-json-web-key-sets-in-microservices/)
 <!-- BLOG-POST-LIST:END -->
 
 
