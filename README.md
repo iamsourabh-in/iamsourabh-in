@@ -49,11 +49,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [An Inteligent Overview of Amazon S3.](https://devcachein.wordpress.com/2021/12/12/an-inteligent-overview-of-amazon-s3/)
+- [Taking a look at EC2 storage options ! When to use InstanceStore/EBS/EFS?](https://devcachein.wordpress.com/2022/03/30/taking-a-look-at-ec2-storage-options-when-to-use-instancestore-ebs-efs/)
+- [Manage Imported Certificates Expiry in ACM &lpar;using CLoudWatch Events + Lambda&rpar; Implement using CLOUD FORMATION](https://devcachein.wordpress.com/2022/03/19/manage-imported-certificates-expiry-in-aws-acm-using-cloudwatch-events-lambda-implement-using-cloud-formation/)
+- [An Intelligent Overview of Amazon S3.](https://devcachein.wordpress.com/2021/12/12/an-inteligent-overview-of-amazon-s3/)
 - [AWS RDS 101 – Amazon Relational Database Service](https://devcachein.wordpress.com/2021/12/05/aws-rds-101-amazon-relational-database-service/)
 - [How to Generate Thumbnail from a Video in C# Dotnet Core.](https://devcachein.wordpress.com/2021/09/17/how-to-generate-thumbnail-from-a-video-in-c-dotnet-core/)
-- [I didn’t know it was this easy to handle Exceptions in .Net Core Web API. EasyException !!](https://devcachein.wordpress.com/2021/09/02/i-didnt-know-it-was-this-easy-to-handle-exceptions-in-net-core-web-api-easyexception/)
-- [Is Windows 11 worth upgrading ? Windows 11 is Windows 10 in Smart casuals 🤟.](https://devcachein.wordpress.com/2021/08/24/is-windows-11-worth-upgrading-windows-11-is-windows-10-in-smart-casuals-%f0%9f%a4%9f/)
 <!-- BLOG-POST-LIST:END -->
 
 
