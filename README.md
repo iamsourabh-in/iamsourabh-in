@@ -5,9 +5,9 @@
 
 ![](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FSourabh_rusty) ![Sourabh](https://visitor-badge.laobi.icu/badge?page_id=iamsourabh-in) [![Github](https://img.shields.io/github/followers/iamsourabh-in?label=Follow&style=social)](https://github.com/CharalambosIoannou)
 
-- 🔭 I’m currently working on Web Technologies
+- 🔭 I’m currently working on Cloud Native Technologies
 - 👯 I’m looking to collaborate on Innovative Projects
-- 💬 Ask me about Tech, Music, Gadgets
+- 💬 Talk me about Tech, Music, Gadgets, Investing
 - 📫 sourabh.rustagi@hotmail.com
 - 📫 [My Blog (devcachein.wordpress.com)](devcachein.wordpress.com)
 
