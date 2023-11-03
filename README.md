@@ -49,11 +49,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Taking a look at EC2 storage options ! When to use InstanceStore/EBS/EFS?](https://devcachein.wordpress.com/2022/03/30/taking-a-look-at-ec2-storage-options-when-to-use-instancestore-ebs-efs/)
-- [Manage Imported Certificates Expiry in ACM &lpar;using CLoudWatch Events + Lambda&rpar; Implement using CLOUD FORMATION](https://devcachein.wordpress.com/2022/03/19/manage-imported-certificates-expiry-in-aws-acm-using-cloudwatch-events-lambda-implement-using-cloud-formation/)
-- [An Intelligent Overview of Amazon S3.](https://devcachein.wordpress.com/2021/12/12/an-inteligent-overview-of-amazon-s3/)
-- [AWS RDS 101 – Amazon Relational Database Service](https://devcachein.wordpress.com/2021/12/05/aws-rds-101-amazon-relational-database-service/)
-- [How to Generate Thumbnail from a Video in C# Dotnet Core.](https://devcachein.wordpress.com/2021/09/17/how-to-generate-thumbnail-from-a-video-in-c-dotnet-core/)
+- [Automating Generation of Open API Spec &lpar;Swagger&rpar; for Dotnet using GitHub Actions](https://devcachein.wordpress.com/2023/10/21/automating-generation-of-open-api-spec-swagger-for-dotnet-using-github-actions/)
+- [Are you using Guid/UUID Columns as Primary Key in your database? You can do better…!](https://devcachein.wordpress.com/2023/09/13/are-you-using-guid-uuid-columns-as-primary-key-in-your-database-you-can-do-better/)
+- [Introducing Flagger UI: Simplifying Manual Gating of Canary Releases in Kubernetes using Flagger.](https://devcachein.wordpress.com/2023/08/28/introducing-flagger-ui-simplifying-manual-gating-of-canary-releases-in-kubernetes-using-flagger/)
+- [Mastering Kubernetes Deployment Strategies: Best Practices for Successful Application Deployments](https://devcachein.wordpress.com/2023/02/26/mastering-kubernetes-deployment-strategies-best-practices-for-successful-application-deployments/)
+- [Deploy Static Sites from Azure DevOps to AWS S3 in 3 steps](https://devcachein.wordpress.com/2022/06/23/deploy-from-azure-devops-to-aws-s3-in-3-steps/)
 <!-- BLOG-POST-LIST:END -->
 
 
