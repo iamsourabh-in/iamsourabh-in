@@ -51,11 +51,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Exploring Kubernetes Internal Architecture and Key Components](https://devcachein.wordpress.com/2023/10/21/exploring-kubernetes-internal-architecture-and-key-components/)
 - [Automating Generation of Open API Spec &lpar;Swagger&rpar; for Dotnet using GitHub Actions](https://devcachein.wordpress.com/2023/10/21/automating-generation-of-open-api-spec-swagger-for-dotnet-using-github-actions/)
 - [Are you using Guid/UUID Columns as Primary Key in your database? You can do better…!](https://devcachein.wordpress.com/2023/09/13/are-you-using-guid-uuid-columns-as-primary-key-in-your-database-you-can-do-better/)
 - [Introducing Flagger UI: Simplifying Manual Gating of Canary Releases in Kubernetes using Flagger.](https://devcachein.wordpress.com/2023/08/28/introducing-flagger-ui-simplifying-manual-gating-of-canary-releases-in-kubernetes-using-flagger/)
 - [Mastering Kubernetes Deployment Strategies: Best Practices for Successful Application Deployments](https://devcachein.wordpress.com/2023/02/26/mastering-kubernetes-deployment-strategies-best-practices-for-successful-application-deployments/)
-- [Deploy Static Sites from Azure DevOps to AWS S3 in 3 steps](https://devcachein.wordpress.com/2022/06/23/deploy-from-azure-devops-to-aws-s3-in-3-steps/)
 <!-- BLOG-POST-LIST:END -->
 
 
