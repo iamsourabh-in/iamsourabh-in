@@ -1,0 +1,205 @@
+Creating a chat application that can interact with multiple bots using the Microsoft Bot Framework SDK without relying on Azure services involves several steps. Here's a detailed approach to achieve this:
+
+### Step 1: Setup the Environment
+
+Ensure you have the necessary tools and SDKs installed:
+
+1. **.NET SDK**: Download and install the .NET SDK from the official [Microsoft .NET website](https://dotnet.microsoft.com/download).
+2. **Bot Framework SDK**: Install the Bot Framework SDK using NuGet.
+
+### Step 2: Create a Bot Using the Bot Framework SDK
+
+1. **Create a new Bot Project**:
+   Use the Bot Framework template to create a new bot project.
+
+   ```sh
+   dotnet new echo -n MyBot
+   cd MyBot
+   ```
+
+2. **Modify the Bot Code**:
+   Customize the bot logic in `Bots\EchoBot.cs` or create new bots as needed.
+
+   ```csharp
+   using System.Collections.Generic;
+   using System.Threading;
+   using System.Threading.Tasks;
+   using Microsoft.Bot.Builder;
+   using Microsoft.Bot.Schema;
+
+   public class EchoBot : ActivityHandler
+   {
+       protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
+       {
+           var replyText = $"Echo: {turnContext.Activity.Text}";
+           await turnContext.SendActivityAsync(MessageFactory.Text(replyText, replyText), cancellationToken);
+       }
+   }
+   ```
+
+### Step 3: Create a Chat Application
+
+You can use any frontend framework to create the chat application (e.g., React, Angular, Vue). Here's an example using React:
+
+1. **Create a New React App**:
+
+   ```sh
+   npx create-react-app my-chat-app
+   cd my-chat-app
+   ```
+
+2. **Install Bot Framework Web Chat**:
+
+   ```sh
+   npm install botframework-webchat
+   ```
+
+3. **Integrate Web Chat with the React App**:
+   Modify `src/App.js` to include the Bot Framework Web Chat:
+
+   ```javascript
+   import React, { useEffect, useState } from 'react';
+   import './App.css';
+   import { createDirectLine } from 'botframework-webchat';
+   import ReactWebChat from 'botframework-webchat';
+
+   function App() {
+       const [directLine, setDirectLine] = useState(null);
+
+       useEffect(() => {
+           const token = 'YOUR_BOT_TOKEN'; // Generate a token or use a direct line secret
+           const directLine = createDirectLine({ token });
+           setDirectLine(directLine);
+       }, []);
+
+       return (
+           <div className="App">
+               <header className="App-header">
+                   <h1>My Chat App</h1>
+               </header>
+               {directLine && <ReactWebChat directLine={directLine} />}
+           </div>
+       );
+   }
+
+   export default App;
+   ```
+
+### Step 4: Connect Multiple Bots
+
+To handle multiple bots, you can set up routes in your backend server to route messages to different bots based on specific criteria.
+
+1. **Create a Node.js Backend**:
+
+   ```sh
+   mkdir backend
+   cd backend
+   npm init -y
+   npm install express body-parser botbuilder
+   ```
+
+2. **Setup the Express Server**:
+   Create `index.js` to route messages to different bots:
+
+   ```javascript
+   const express = require('express');
+   const bodyParser = require('body-parser');
+   const { BotFrameworkAdapter, MemoryStorage, ConversationState, UserState } = require('botbuilder');
+   const EchoBot = require('./bots/echoBot');
+   const AnotherBot = require('./bots/anotherBot');
+
+   const app = express();
+   app.use(bodyParser.json());
+
+   const adapter = new BotFrameworkAdapter({
+       appId: process.env.MicrosoftAppId,
+       appPassword: process.env.MicrosoftAppPassword
+   });
+
+   const memoryStorage = new MemoryStorage();
+   const conversationState = new ConversationState(memoryStorage);
+   const userState = new UserState(memoryStorage);
+
+   const echoBot = new EchoBot(conversationState, userState);
+   const anotherBot = new AnotherBot(conversationState, userState);
+
+   app.post('/api/messages', (req, res) => {
+       const botType = req.body.botType; // Assuming you send bot type in the request
+       const bot = botType === 'echo' ? echoBot : anotherBot;
+       adapter.processActivity(req, res, async (turnContext) => {
+           await bot.run(turnContext);
+       });
+   });
+
+   app.listen(3978, () => {
+       console.log(`Server listening on port 3978`);
+   });
+   ```
+
+3. **Define Bots**:
+   Create separate bot logic files, e.g., `bots/echoBot.js` and `bots/anotherBot.js`.
+
+   ```javascript
+   // bots/echoBot.js
+   const { ActivityHandler } = require('botbuilder');
+
+   class EchoBot extends ActivityHandler {
+       constructor(conversationState, userState) {
+           super();
+           this.conversationState = conversationState;
+           this.userState = userState;
+           this.onMessage(async (context, next) => {
+               await context.sendActivity(`Echo: ${context.activity.text}`);
+               await next();
+           });
+       }
+   }
+
+   module.exports = EchoBot;
+   ```
+
+   ```javascript
+   // bots/anotherBot.js
+   const { ActivityHandler } = require('botbuilder');
+
+   class AnotherBot extends ActivityHandler {
+       constructor(conversationState, userState) {
+           super();
+           this.conversationState = conversationState;
+           this.userState = userState;
+           this.onMessage(async (context, next) => {
+               await context.sendActivity(`AnotherBot: ${context.activity.text}`);
+               await next();
+           });
+       }
+   }
+
+   module.exports = AnotherBot;
+   ```
+
+### Step 5: Run the Application
+
+1. **Run the Backend Server**:
+
+   ```sh
+   node index.js
+   ```
+
+2. **Run the React App**:
+
+   ```sh
+   npm start
+   ```
+
+### Explanation
+
+1. **Bot Setup**: Create multiple bots using the Bot Framework SDK.
+2. **Frontend Setup**: Use React to create a chat UI and integrate Bot Framework Web Chat.
+3. **Backend Routing**: Use an Express server to route messages to different bots based on criteria.
+4. **Running the App**: Start both the backend server and the React app to enable chat functionality.
+
+This setup allows you to interact with multiple bots without using Azure services. You can customize the bot logic and frontend as needed.
+
+
+
+
