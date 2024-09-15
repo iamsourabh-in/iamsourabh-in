@@ -11,7 +11,7 @@
 - 👯 I’m looking to collaborate on Innovative Projects
 - 💬 Talk me about Tech, Music, Gadgets, Investing
 - 📫 sourabh.rustagi@hotmail.com
-- 📫 [My Blog (devcachein.wordpress.com)](devcachein.wordpress.com)
+- 📫 [My Blog (blog.iamsourabh.in)](blog.iamsourabh.in)
 
 
 ## ✉️ Reach me on:
