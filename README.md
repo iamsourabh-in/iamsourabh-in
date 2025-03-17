@@ -45,10 +45,6 @@
 
 </p>
 
-## ✉️ My Stats:
-
-![Sourabh's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamsourabh-in&show_icons=true&theme=radical) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamsourabh-in&layout=compact&theme=tokyonight&langs_count=5)
-
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [Request flow in Apple’s Private Cloud Compute](https://devcachein.wordpress.com/2025/03/06/request-flow-in-apples-private-cloud-compute/)
@@ -58,6 +54,23 @@
 - [Automating Generation of Open API Spec &lpar;Swagger&rpar; for Dotnet using GitHub Actions](https://devcachein.wordpress.com/2023/10/21/automating-generation-of-open-api-spec-swagger-for-dotnet-using-github-actions/)
 <!-- BLOG-POST-LIST:END -->
 
+
+
+## ✉️ My Stats:
+
+![Sourabh's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamsourabh-in&show_icons=true&theme=radical) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iamsourabh-in&layout=compact&theme=tokyonight&langs_count=5)
+
+
+### 📌 Pinned Repositories
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=iamsourabh-in&repo=apple-pcc-net&theme=radical)](https://github.com/yourusername/repo1)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=iamsourabh-in&repo=RSABlindSignature.NET&theme=radical)](https://github.com/yourusername/repo2)
+
+
+### 🔭 I'm currently working on
+
+- [apple-pcc-net](https://github.com/iamsourabh-in/apple-pcc-net) 
+- [RSABlindSignature.NET](https://github.com/iamsourabh-in/RSABlindSignature.NET)
 
 
 
