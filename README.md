@@ -47,11 +47,11 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Modeling approvals](https://devcachein.wordpress.com/2026/04/10/modeling-approvals/)
 - [Request flow in Apple’s Private Cloud Compute](https://devcachein.wordpress.com/2025/03/06/request-flow-in-apples-private-cloud-compute/)
 - [How Apple’s Private Cloud Compute &lpar;PCC&rpar; maintains hardware-level security](https://devcachein.wordpress.com/2025/03/06/how-apples-private-cloud-compute-pcc-maintains-hardware-level-security/)
 - [What is Oblivious HTTP &lpar;OHTTP&rpar;? And how it work ? Let’s try !](https://devcachein.wordpress.com/2025/01/16/ohttp-relay-gateway/)
 - [Exploring Kubernetes Internal Architecture and Key Components](https://devcachein.wordpress.com/2023/10/21/exploring-kubernetes-internal-architecture-and-key-components/)
-- [Automating Generation of Open API Spec &lpar;Swagger&rpar; for Dotnet using GitHub Actions](https://devcachein.wordpress.com/2023/10/21/automating-generation-of-open-api-spec-swagger-for-dotnet-using-github-actions/)
 <!-- BLOG-POST-LIST:END -->
 
 
