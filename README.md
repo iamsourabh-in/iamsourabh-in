@@ -47,7 +47,7 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [Modeling approvals](https://devcachein.wordpress.com/2026/04/10/modeling-approvals/)
+- [Understanding WebMCP: The Future of AI-Native Applications](https://devcachein.wordpress.com/2026/07/07/webmcp/)
 - [Request flow in Apple’s Private Cloud Compute](https://devcachein.wordpress.com/2025/03/06/request-flow-in-apples-private-cloud-compute/)
 - [How Apple’s Private Cloud Compute &lpar;PCC&rpar; maintains hardware-level security](https://devcachein.wordpress.com/2025/03/06/how-apples-private-cloud-compute-pcc-maintains-hardware-level-security/)
 - [What is Oblivious HTTP &lpar;OHTTP&rpar;? And how it work ? Let’s try !](https://devcachein.wordpress.com/2025/01/16/ohttp-relay-gateway/)
